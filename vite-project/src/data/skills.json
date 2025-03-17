@@ -1,0 +1,34 @@
+ [
+      {
+        "name": "HTML",
+        "level": "Intermediate",
+        "image": "/html5-original.png"
+      },
+      {
+        "name": "CSS",
+        "level": "Intermediate",
+        "image": "/css3-original.png"
+      },
+      {
+        "name": "JavaScript",
+        "level": "Basic",
+        "image": "/javascript-original.png"
+      },
+      {
+        "name": "React.js",
+        "level": "Basic",
+        "image": "/react-original.png"
+      },
+      {
+        "name": "GitHub",
+        "level": "Basic",
+        "image": "/github-original.png"
+      },
+      {
+        "name": "Netlify",
+        "level": "Basic",
+        "image": "/netlify-original.png"
+      }
+    ]
+  
+  
