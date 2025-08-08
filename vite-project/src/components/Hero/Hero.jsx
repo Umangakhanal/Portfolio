@@ -14,8 +14,9 @@ export const Hero = () => {
         </p>
         <a className={styles.contactBtn} href="mailto:umangakhanal123@gmail.com">Contact Me</a>
       </div>
-      <img className={styles.profileImg} src={getImageUrl("/profile.png")} alt="profile image" />
-
+      <div className={styles.imageContainer}>
+      <img className={styles.profileImg} src={getImageUrl("/Profile.png")} alt="profile image" />
+</div>
     </section>
   );
 };

@@ -9,7 +9,7 @@ export const About = () => {
       <div className={styles.content}>
         <img
           className={styles.aboutImage}
-          src={getImageUrl("/Image.png")}
+          src={getImageUrl("/Cover.png")}
           alt="Cover photo"
         />
         <ul className={styles.aboutItems}>
@@ -31,14 +31,14 @@ export const About = () => {
           <li className={styles.aboutItem}>
             <div className={styles.aboutItemText}>
               <h3>Technical Skills</h3>
-              <p>
+              
                 <ul>
                   <li>HTML</li>
                   <li>CSS</li>
                   <li>JS</li>
                   <li>React</li>
                 </ul>
-              </p>
+              
             </div>
           </li>
         </ul>
