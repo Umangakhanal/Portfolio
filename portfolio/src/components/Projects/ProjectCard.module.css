@@ -3,9 +3,9 @@
 .container{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    height: 95%;
-    min-height: 450px;
+    justify-content: space-between;
+    height: 100%;
+    
     border-radius: 10px;
     background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
     box-shadow: 0 16px 14px 0 #04152d;
@@ -23,14 +23,35 @@
 
 }
 .description{
-    font-size: 25px;
+    font-size: 16px;
     font-weight: 400;
     margin-top: 6px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Limits to 3 lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: all 0.3s ease;
     
+}
+.expand{
+    display: block; 
+    -webkit-line-clamp: unset;
+    -webkit-box-orient: unset;
+    overflow: visible;
+}
+.readMoreBtn{
+    background:none;
+    border: none;
+    color: var(--color-primary);
+    cursor:pointer;
+    font-size:14px;
+    margin-top: 5px;
 }
 .skills{
     width: 100%;
     margin-top: 14px;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -38,11 +59,11 @@
     list-style: none;
 }
 .skill{
-    font-size: 25px;
+    font-size: 16px;
     font-weight: 400;
     border-radius: 100px;
     background: var(--color-dark);
-    padding: 2px 20px;
+    padding: 2px 14px;
 }
 .links{
     display: flex;
@@ -51,6 +72,7 @@
     flex-wrap: wrap;
     width: 100%;
     box-sizing: border-box;
+    margin-top: auto;
 
 }
 .link{
