@@ -57,6 +57,7 @@
     flex-wrap: wrap;
     gap : 6px;
     list-style: none;
+    justify-content: center;
 }
 .skill{
     font-size: 16px;
